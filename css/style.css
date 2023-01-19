@@ -5,6 +5,29 @@
 }
 
 body{
-    background-color: white;
+    background-color: black;
     font-family: 'Fredoka', sans-serif;
+    color: white;
+}
+
+.container{
+    margin: 0 auto;
+    background-color: white;
+    width: 1200px;
+}
+
+header{
+    background-color: blue;
+}
+
+h1{
+    color: blueviolet;
+    background-color: cadetblue;
+    text-align: center;
+    padding: 25px 0 35px;
+}
+
+p{
+    color: black;
+    text-align: center;
 }
