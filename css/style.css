@@ -10,19 +10,19 @@ body{
     color: white;
 }
 
-.container{
-    margin: 0 auto;
-    background-color: white;
-    width: 1100px;
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
-header{
-    background-color: white;
+.container{
+    margin: 0 auto;
+    width: 80vw;
 }
 
 h1{
     color: blueviolet;
-    background-color: white;
     text-align: center;
     padding: 25px 0 35px;
 }
@@ -37,14 +37,16 @@ main{
 }
 
 .member{
-    width: 33%;
     background-color: black;
+    width: calc(100% / 3 - 25px);
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 30px;
 }
 
-.clearfix::after{
-    content: "";
-    display: table;
-    clear: both;
+img{
+    height: 120px;
+    float: left;
 }
 
 h4{
@@ -58,7 +60,3 @@ h5{
     vertical-align: bottom;
 }
 
-img{
-    height: 150px;
-    float: left;
-}
