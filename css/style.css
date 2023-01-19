@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: white;
     font-family: 'Fredoka', sans-serif;
     color: white;
 }
@@ -13,16 +13,16 @@ body{
 .container{
     margin: 0 auto;
     background-color: white;
-    width: 1200px;
+    width: 1100px;
 }
 
 header{
-    background-color: blue;
+    background-color: white;
 }
 
 h1{
     color: blueviolet;
-    background-color: cadetblue;
+    background-color: white;
     text-align: center;
     padding: 25px 0 35px;
 }
@@ -30,4 +30,35 @@ h1{
 p{
     color: black;
     text-align: center;
+}
+
+main{
+    margin-top: 3em;
+}
+
+.member{
+    width: 33%;
+    background-color: black;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h4{
+    font-weight: lighter;
+    vertical-align: middle;
+}
+
+h5{
+    color: cornflowerblue;
+    font-weight: lighter;
+    vertical-align: bottom;
+}
+
+img{
+    height: 150px;
+    float: left;
 }
