@@ -37,19 +37,16 @@ main{
 }
 
 .member{
-    width: calc(100% / 3);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(128,51,158,0.633578431372549) 100%, rgba(0,212,255,1) 100%);
+    width: calc(100% / 3 - 25px);
     float: left;
-    padding: 0 45px 35px 0;
+    margin-right: 25px;
+    margin-bottom: 30px;
 }
 
 .info{
     padding-top: 15px;
     line-height: 25px;
-}
-
-.ruolo{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(111,115,122,1) 100%, rgba(0,212,255,1) 100%);
 }
 
 .ruolo > img{
@@ -72,4 +69,3 @@ h4{
 a{
     text-decoration: none;
 }
-
